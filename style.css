@@ -1,0 +1,267 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #000; 
+  padding: 24px;
+}
+
+.top_header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 1.6116625rem;
+  line-height: 31px;
+  list-style: none;
+}
+
+.bntverde {
+  padding: 12px 24px;
+  background-color: #12ff00;
+  transition: .3s;
+  color: #000;
+  border-radius: 32px;
+  text-align: center;
+  left: 1000px;
+}
+
+.btnvbranco {
+  color: #fff;
+  letter-spacing: .01em;
+  transition: .3s;
+}
+
+.header_container_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_container_nav div{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.Assine {
+  padding-left: 400px;
+}
+
+
+.baner {
+ padding: 24px 48px 130px;
+ background-image: url(./jpg/Banner.png);
+ background-color: #000;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.baner div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.baner h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 85px;
+}
+
+.baner a, .baner p {
+  color: #fff;
+  letter-spacing: .01em;
+  transition: .3s;
+}
+
+.jpg-principal{
+  padding-left: 400px;
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+.container_principal {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+
+.section_proncipal_articlelink {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.section_principal_articleitems {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  justify-content: space-between;
+  font-size: 20px; 
+  text-align: justify; 
+  word-wrap: break-word; /
+  line-height: 1.2; 
+}
+
+/* p {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  flex-direction: column; 
+  box-sizing: border-box; 
+} */
+
+.footer_container_nav {
+  background-color: black;
+  padding: 80px 24px;
+}
+
+.section_principal {
+  background-color: #fff;
+  box-shadow: #fff;
+  max-width: 1200px;
+  margin: -32px auto 0 auto;
+  padding: 60px 99px 180px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+}
+
+.section_container_div .section_proncipal_articlelink a {
+  margin-bottom: 60px;
+  font-size: 1.611875rem;
+  line-height: 30px;
+  color: #000;
+  transition: .2s;
+  align-items: start;
+  text-decoration: none;
+}
+
+
+.section_proncipal_articlelink {
+  margin-bottom: 60px;
+  border-bottom: 2px solid rgba(0, 0, 0,  .12);
+  align-items: start;
+  margin-bottom: 16px;
+  font-size: 2.61829375rem;
+  line-height: 51px;
+  color: #000;
+  align-items: start;
+}
+
+
+.section_principal_articleitems  {
+  align-items: start;
+  margin-bottom: 80px;
+  align-items: start;
+  margin-top: 24px;
+}
+
+.section_principal_articleitems ul {
+  margin: 24px 0px 32px 32px;
+}
+
+.section_principal_articleitems li {
+  margin-top: 12px;
+}
+
+.section_principal_articleitems p+p {
+  margin-top: 24px;
+}
+
+.section_principal_articleitems p {
+  font-size: 1.6116625rem;
+  line-height: 35px;
+  color: #000;
+}
+
+.section_principal_articleitems h1 {
+  margin-bottom: 13px;
+  font-size: 2.61829375rem;
+  line-height: 51px;
+  color: #000;
+}
+
+.section__principal .section__principal__articleitems p {
+  font-size: 1.6116625rem;
+  line-height: 40px;
+  color: #000;
+}
+
+.section__principal .section__principal__articleitems p+p {
+  margin-top: 24px;
+}
+
+.section__principal .section__principal__articleitems {
+  margin-bottom: 60px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.finish {
+  max-width: 340px;
+  margin-top: 100px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer_principal_linksexternos p {
+  color: #fff;
+}
+
+.bntverde:hover {
+  background-color: #71ff66
+}
+
+
+.footer_container_nav .footer_principal_linksexternos p,
+.footer__principal__divList p, 
+.footer__linksexternos__midiasSociais p {
+  margin-bottom: 20px;
+  font-size: 1.6116625rem;
+  line-height: 31px;
+  letter-spacing: .01em;
+  color: #fff;
+}
+
+
+.footer_container_nav {
+ display: flex;
+ gap: 100px;
+}
+
+.footer__principal__divList ul a {
+  align-items: start;
+  color: #fff;
+}
+
+.footer_principal_linksexternos ul a {
+  align-items: start;
+  color: #fff;
+}
+
+
+
+
