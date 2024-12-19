@@ -114,6 +114,8 @@ header {
   text-align: justify; 
   word-wrap: break-word; /
   line-height: 1.2; 
+  width: 100%;
+  margin: 1rem;
 }
 
 /* p {
@@ -261,7 +263,3 @@ ul {
   align-items: start;
   color: #fff;
 }
-
-
-
-
