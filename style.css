@@ -352,7 +352,7 @@
 
 .main__principal {
   padding: 0 48px 130px;
-  background-image: url(../image/Banner.webp);
+  background-image: url(./Banner.png);
   background-color: #000;
   background-repeat: no-repeat;
   background-size: cover
